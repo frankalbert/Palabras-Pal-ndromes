@@ -1,0 +1,39 @@
+:root {
+  --colorPrimario: #007bff;
+}
+.contenedor_resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  width: 50%;
+  height: 20rem;
+  background: #c7c7c7;
+}
+
+.element__form {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.boton--comprobar {
+  background: var(--colorPrimario);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.boton--comprobar:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid var(--colorPrimario);
+  color: var(--colorPrimario);
+}
+
+.resultado {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
